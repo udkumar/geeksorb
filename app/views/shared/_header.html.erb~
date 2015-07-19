@@ -1,0 +1,41 @@
+<!-- Start Top Nav -->
+    <div class="topnav" >
+        <div class="container">
+         <ul class="pull-left" style="margin-top:.7%;">
+            <li>sales:<a href="mailto:enquiry@GeeksOrb.in"><i class=""></i>&nbsp; info@GeeksOrb.in</a></li>
+            <!-- <li><a href="#"><i class=""></i>&nbsp;|&nbsp;+91-851-0034-891</a></li> -->
+          </ul>
+          <ul class="pull-right">
+            <li><a href="#"><i class="icon-twitter"></i></a></li>
+            <li><a href="#"><i class="icon-facebook-sign"></i></a></li>
+            <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    <!-- End Top Nav -->
+
+    <!-- Start Main Nav -->
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a href="index.html" class="brand">
+                    <img id="logo" alt="maJoo" src="img/logo.png"></a>
+                <div class="nav-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav pull-right">
+                      <li><a href="<%= root_path %>">HOME</a></li>
+                      <li><a href="<%= about_us_index_path %>">ABOUT US</a></li>
+                      <li><a href="<%= services_index_path %>">SERVICES</a></li>
+                      <li><a href="<%= projects_index_path %>">PROJECTS</a></li>
+                      <li><a href="<%= contact_index_path %>">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Nav -->
+
